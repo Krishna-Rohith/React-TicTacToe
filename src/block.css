@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.btnTTT{
+    font-family: 'Open Sans', sans-serif;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #000;
+    border-radius: 2.5px;
+    color: white;
+    border: none;
+    font-size: 70px;
+    margin: 2px;
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 2px;
+    justify-content: center;
+}
+.container{
+    text-align: center;
+}
+.Block{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 50px 0;
+}
+#titlebar{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    letter-spacing: 3px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.55);
+}
+.unselectable{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#btnResetGame{
+    width: 120px;
+    height: 40px;
+    background-color: #000;
+    border: none;
+    color:#fff;
+    border-radius: 2.5px;
+    font-family: 'Open Sans', sans-serif;
+    margin:5px;
+    font-size: medium;
+}
+#btnResetScores{
+    width: 120px;
+    height: 40px;
+    background-color: #000;
+    border: none;
+    color:#fff;
+    border-radius: 2.5px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px;
+    font-size: medium;
+}
+#btnResetScores:hover, #btnResetGame:hover{
+    background-color: rgb(63, 0, 0);
+}
+#div-scores > ul > li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    display:inline-block;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    font-size:x-large;
+}
+#liTie{
+    color: grey;
+}
+#div-scores > ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+#div-scores{
+    text-align: center;
+}
+#statusDisplay{
+    font-family: 'Open Sans', sans-serif;
+}
